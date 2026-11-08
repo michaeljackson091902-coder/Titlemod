@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tilemod",
+  "version": "${version}",
+  "name": "Tile Menu",
+  "description": "Bottom-sheet tile menu with keystrokes, FPS, coords and CPS HUD. Right-click with an empty hand to open.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.tilemod.TileMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
